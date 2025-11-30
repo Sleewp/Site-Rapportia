@@ -1,4 +1,6 @@
-# Site Raapportia
+# Site Rapportia
+
+---
 
 ## Grupo 3 - Rapportia (Documentação do site):
 
