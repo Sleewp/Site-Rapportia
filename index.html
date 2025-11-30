@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <title>Rapportia Games</title>
+</head>
+<body>
+  <header id="home">
+    <img src="./assets/logo.png" alt="Rapportia Logo">
+    <button id="hamburguer" aria-label="Abrir menu">&#9776;</button>
+    <nav id="nav">
+      <ul>
+        <li><a href="#sobre">SOBRE NÓS</a></li>
+        <li><a href="#equipe">EQUIPE</a></li>
+        <li><a href="#jogo">JOGOS</a></li>
+        <li><a href="#parceria">PARCEIROS</a></li>
+        <li><a href="#contato">CONTATO</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="carrossel">
+  <button class="nav-btn prev-btn" aria-label="Slide anterior">&#10094;</button>
+  <button class="nav-btn next-btn" aria-label="Próximo slide">&#10095;</button>
+
+  <div class="carrossel-container">
+    <img src="./assets/cidade.jpeg" class="ativo" alt="Slide 1"/>
+    <img src="./assets/caverna.png" alt="Slide 2"/>
+    <img src="./assets/pantano.jpeg" alt="Slide 3"/>
+    <img src="./assets/coliseu.jpeg" alt="Slide 4"/>
+    <div class="controles">
+      <span class="controle ativo" data-slide="1"></span>
+      <span class="controle" data-slide="2"></span>
+      <span class="controle" data-slide="3"></span>
+      <span class="controle" data-slide="4"></span>
+    </div>
+  </div>
+</section>
+    <section id="sobre">
+      <div id="sobre-texto">
+        <h1>Sobre Nós</h1>
+        <p>Somos uma desenvolvedora indie brasileira, formada por estudantes do ensino médio, dedicada a criar experiências únicas e fortalecer o cenário nacional de games.</p>
+      </div>
+      <div id="mascote">
+        <img src="./assets/mascote.png" alt="Mascote">
+      </div>
+      <div id="sobre-inferior">
+        <div>
+          <h2>Missão</h2>
+          <p>Oferecer jogos de qualidade, ao mesmo tempo em que promovemos o reconhecimento internacional do mercado brasileiro de jogos.</p>
+        </div>
+        <div>
+          <h2>Visão</h2>
+          <p>Almejamos ser reconhecidos como uma empresa confiável, admirada por oferecer entretenimento com dedicação, inovação e excelência.</p>
+        </div>
+        <div>
+          <h2>Valores</h2>
+          <p>Qualidade no que fazemos, compromisso com quem confia em nós, igualdade entre todos e parceria para crescer juntos.</p>
+        </div>
+      </div>
+    </section>
+    <section id="equipe">
+      <h1>Nossa Equipe</h1>
+      <div id="membros">
+        <div class="membro">
+          <img src="./assets/susana.jpg" alt="Susana Correia">
+          <h3>Susana Correia Garcia</h3>
+          <ul>
+            <li>- Level Designer</li>
+            <li>- UI/UX Designer</li>
+          </ul>
+        </div>
+        <div class="membro">
+          <img src="./assets/kauan.jpg" alt="Kauan Merida">
+          <h3>Kauan  de Carlo Merida</h3>
+          <ul>
+            <li>- Game developer</li>
+            <li>- Level Designer</li>
+          </ul>
+        </div>
+        <div class="membro">
+          <img src="./assets/felipe.jpg" alt="Felipe Musatto">
+          <h3>Felipe Musatto Rodrigues</h3>
+          <ul>
+            <li>- Concept artist</li>
+            <li>- 3D modeler</li>
+            
+          </ul>
+        </div>
+        <div class="membro">
+          <img src="./assets/hudson.jpg" alt="Hudson Araujo">
+          <h3>Hudson Araujo Barreiro</h3>
+          <ul>
+            <li>- Web Developer</li>
+            <li>- Game developer</li>
+          </ul>
+        </div>
+        <div class="membro">
+          <img src="./assets/pedro.jpg" alt="Pedro Menezes">
+          <h3>Pedro Santos Menezes</h3>
+          <ul>
+            <li>- Web developer</li>
+            <li>- Game developer</li>
+          </ul>
+        </div>
+        <div class="membro">
+          <img src="./assets/vitoria.jpg" alt="Vitória Colussi">
+          <h3>Vitória Colussi dos Santos</h3>
+          <ul>
+            <li>- Level Designer</li>
+            <li>- Designer de som</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="jogo">
+      <h1>A Última Luz</h1>
+      <h2>Trailer:</h2>
+      <div class="trailer-card">
+        <iframe src="https://www.youtube.com/embed/Lbk-EDaySmw?si=Qx9LCCxQQG0W-nM-&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section id="parceria">
+    <h1>Nossos Parceiros</h1>
+    <br>
+    <div class="parceiros-grid">
+        <div class="parceiro-item">
+            <img src="./assets/4gi.png" alt="4gi" class="logo-parceiro">
+        </div>
+        <div class="parceiro-item">
+            <img src="./assets/codimbus.png" alt="comdimbus" class="logo-parceiro">
+        </div>
+        <div class="parceiro-item">
+            <img src="./assets/cogitare.png" alt="cogitare" class="logo-parceiro">
+        </div>
+        <div class="parceiro-item">
+            <img src="./assets/enotita.png" alt="enotita" class="logo-parceiro">
+        </div>
+        <div class="parceiro-item">
+            <img src="./assets/gvines.png" alt="gvines" class="logo-parceiro">
+        </div>
+    </div>
+    </section>
+    <section id="contato">
+      <div class="contact-info">
+        <h1>Contato</h1>
+        <div><i class="fas fa-phone"></i> +55 (11) 3633-4657</div>
+        <br>
+        <div><i class="fas fa-envelope"></i> Rapportigames@gmail.com</div>
+        <br>
+        <div><i class="fas fa-map-marker-alt"></i> Rua do Manifesto 95, Ipiranga, São Paulo</div>
+      </div>
+      <div class="form-container">
+        <form id="contact-form" class="form" method="POST">
+          <input type="text" name="nome" placeholder="Nome" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="text" name="assunto" placeholder="Assunto" required>
+          <textarea name="mensagem" placeholder="Mensagem" rows="4" required></textarea>
+          <button type="submit"><strong>ENVIAR</strong></button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <span>© 2025 Rapportia, Inc. Todos os direitos reservados.</span>
+      <a href="#home"><img src="./assets/seta.png" alt="seta"></a>
+    </footer>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+</html>
