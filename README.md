@@ -63,4 +63,4 @@ O site funciona como:
 
 
 ## Tópicos da Wiki:
-
+1. [Codificação](https://github.com/Alex2024Campos/Tomb_Raider_Mobile_APP/wiki/1.-Pesquisa)<br>
